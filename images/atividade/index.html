@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="portifolio.css">
+</head>
+<body>
+  <header class="topo-site">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-hamburguer">☰</label>
+    <nav class="menu">
+      <ul class="menu-lista">
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="apresentacao">
+      <img src="images/jotaro.png" <img src="jotaro.png" class="foto-perfil">
+      <h1>Olá, eu sou <span class="destaque">Guilherme</span><br>Desenvolvedor FullStack</h1>
+      <p>Crio sites e aplicativos modernos, funcionais e responsivas.</p>
+      <a href="#" class="botao-rosa">Download Resume</a>
+    </section>
+
+<section id="projetos" class="projetos">
+  <h2>Projetos Recentes</h2>
+
+  <div class="grid-cards">
+
+    <article class="card">
+      <h3>Projeto 1</h3>
+      <a href="https://github.com/tads-webdesign/2025.2.2.1-atividade" target="_blank">
+        Acessar repositório da atividade 
+      </a>
+    </article>
+
+    <article class="card">
+      <h3>Projeto 2</h3>
+      <a href="https://github.com/tads-webdesign/2025.2.2.2-atividade-flexbox" target="_blank">
+        Acessar repositório da atividade-flexbox
+      </a>
+    </article>
+
+    <article class="card">
+      <h3>Projeto 3</h3>
+      <a href="https://github.com/tads-webdesign/2025.2-atividade-03" target="_blank">
+        Acessar repositório da atividade-03
+      </a>
+    </article>
+
+  </div>
+</section>
+
+    <section id="skills" class="skills">
+      <h2>Minhas Skills</h2>
+      <div class="grid-skills">
+        <div class="skill-item">HTML</div>
+        <div class="skill-item">CSS</div>
+        <div class="skill-item">Python</div>
+        <div class="skill-item">GitHub</div>
+      </div>
+    </section>
+
+    <section id="contato" class="contato">
+      <h2>Contato</h2>
+      <form>
+        <label>Nome:<input type="text"></label>
+        <label>Email:<input type="email"></label>
+        <label>Mensagem:<textarea></textarea></label>
+        <button type="submit" class="botao-rosa">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Guilherme — Todos os Direitos Reservados</p>
+  </footer>
+</body>
+</html>
